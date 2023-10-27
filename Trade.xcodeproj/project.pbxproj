@@ -11,6 +11,29 @@
 		790A0B302ADFD37600B42F47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B2F2ADFD37600B42F47 /* ContentView.swift */; };
 		790A0B322ADFD37800B42F47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B312ADFD37800B42F47 /* Assets.xcassets */; };
 		790A0B352ADFD37800B42F47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B342ADFD37800B42F47 /* Preview Assets.xcassets */; };
+		790A0B3C2ADFD3AF00B42F47 /* SwiftUIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B3B2ADFD3AF00B42F47 /* SwiftUIWebView.swift */; };
+		790A0B3E2ADFEB4A00B42F47 /* EURUSD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B3D2ADFEB4A00B42F47 /* EURUSD.html */; };
+		790A0B412AE005A600B42F47 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B402AE005A600B42F47 /* Color.swift */; };
+		790A0B432AE0122900B42F47 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B422AE0122900B42F47 /* MainView.swift */; };
+		790A0B452AE0126600B42F47 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B442AE0126600B42F47 /* TopView.swift */; };
+		790A0B472AE1524400B42F47 /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B462AE1524400B42F47 /* ButtonsView.swift */; };
+		790A0B492AE286D500B42F47 /* TradeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B482AE286D500B42F47 /* TradeViewModel.swift */; };
+		790A0B4E2AE28E3800B42F47 /* FocusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B4D2AE28E3800B42F47 /* FocusEnum.swift */; };
+		790A0B502AE2ABB700B42F47 /* CurrencyPairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B4F2AE2ABB700B42F47 /* CurrencyPairView.swift */; };
+		790A0B522AE3CDCF00B42F47 /* GBPUSD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B512AE3CDCE00B42F47 /* GBPUSD.html */; };
+		790A0B542AE3D12E00B42F47 /* CurrencyPairViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B532AE3D12E00B42F47 /* CurrencyPairViewModel.swift */; };
+		790A0B562AE3D1A000B42F47 /* EURCAD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B552AE3D1A000B42F47 /* EURCAD.html */; };
+		790A0B582AE3D1D100B42F47 /* USDCAD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B572AE3D1D100B42F47 /* USDCAD.html */; };
+		790A0B5B2AE3D22D00B42F47 /* AUDUSD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B5A2AE3D22D00B42F47 /* AUDUSD.html */; };
+		790A0B5D2AE3D25700B42F47 /* NZDUSD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B5C2AE3D25700B42F47 /* NZDUSD.html */; };
+		790A0B612AE3D2AE00B42F47 /* EURAUD.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B602AE3D2AE00B42F47 /* EURAUD.html */; };
+		790A0B652AE3D31400B42F47 /* CHFJPY.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B642AE3D31400B42F47 /* CHFJPY.html */; };
+		790A0B672AE3D37000B42F47 /* CADJPY.html in Resources */ = {isa = PBXBuildFile; fileRef = 790A0B662AE3D37000B42F47 /* CADJPY.html */; };
+		790A0B742AE3E71800B42F47 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B732AE3E71800B42F47 /* UserModel.swift */; };
+		790A0B762AE3E7A800B42F47 /* TopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B752AE3E7A800B42F47 /* TopViewModel.swift */; };
+		790A0B7A2AE5310D00B42F47 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B792AE5310D00B42F47 /* MyTimer.swift */; };
+		790A0B7C2AE538CC00B42F47 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B7B2AE538CC00B42F47 /* NotificationView.swift */; };
+		790A0B7E2AE53CD300B42F47 /* PrpgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A0B7D2AE53CD300B42F47 /* PrpgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +42,29 @@
 		790A0B2F2ADFD37600B42F47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		790A0B312ADFD37800B42F47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		790A0B342ADFD37800B42F47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		790A0B3B2ADFD3AF00B42F47 /* SwiftUIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIWebView.swift; sourceTree = "<group>"; };
+		790A0B3D2ADFEB4A00B42F47 /* EURUSD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EURUSD.html; sourceTree = "<group>"; };
+		790A0B402AE005A600B42F47 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		790A0B422AE0122900B42F47 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		790A0B442AE0126600B42F47 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		790A0B462AE1524400B42F47 /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		790A0B482AE286D500B42F47 /* TradeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeViewModel.swift; sourceTree = "<group>"; };
+		790A0B4D2AE28E3800B42F47 /* FocusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusEnum.swift; sourceTree = "<group>"; };
+		790A0B4F2AE2ABB700B42F47 /* CurrencyPairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairView.swift; sourceTree = "<group>"; };
+		790A0B512AE3CDCE00B42F47 /* GBPUSD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GBPUSD.html; sourceTree = "<group>"; };
+		790A0B532AE3D12E00B42F47 /* CurrencyPairViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairViewModel.swift; sourceTree = "<group>"; };
+		790A0B552AE3D1A000B42F47 /* EURCAD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EURCAD.html; sourceTree = "<group>"; };
+		790A0B572AE3D1D100B42F47 /* USDCAD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = USDCAD.html; sourceTree = "<group>"; };
+		790A0B5A2AE3D22D00B42F47 /* AUDUSD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AUDUSD.html; sourceTree = "<group>"; };
+		790A0B5C2AE3D25700B42F47 /* NZDUSD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NZDUSD.html; sourceTree = "<group>"; };
+		790A0B602AE3D2AE00B42F47 /* EURAUD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = EURAUD.html; sourceTree = "<group>"; };
+		790A0B642AE3D31400B42F47 /* CHFJPY.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CHFJPY.html; sourceTree = "<group>"; };
+		790A0B662AE3D37000B42F47 /* CADJPY.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CADJPY.html; sourceTree = "<group>"; };
+		790A0B732AE3E71800B42F47 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		790A0B752AE3E7A800B42F47 /* TopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewModel.swift; sourceTree = "<group>"; };
+		790A0B792AE5310D00B42F47 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		790A0B7B2AE538CC00B42F47 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		790A0B7D2AE53CD300B42F47 /* PrpgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrpgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				790A0B2D2ADFD37600B42F47 /* TradeApp.swift */,
-				790A0B2F2ADFD37600B42F47 /* ContentView.swift */,
+				790A0B592AE3D1F900B42F47 /* New Group */,
+				790A0B722AE3E70400B42F47 /* Model */,
+				790A0B4A2AE28A8B00B42F47 /* ViewModel */,
+				790A0B4B2AE28A9800B42F47 /* View */,
+				790A0B3F2AE0057800B42F47 /* Support */,
 				790A0B312ADFD37800B42F47 /* Assets.xcassets */,
 				790A0B332ADFD37800B42F47 /* Preview Content */,
 			);
@@ -65,6 +115,66 @@
 				790A0B342ADFD37800B42F47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		790A0B3F2AE0057800B42F47 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				790A0B3B2ADFD3AF00B42F47 /* SwiftUIWebView.swift */,
+				790A0B792AE5310D00B42F47 /* MyTimer.swift */,
+				790A0B402AE005A600B42F47 /* Color.swift */,
+				790A0B4D2AE28E3800B42F47 /* FocusEnum.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		790A0B4A2AE28A8B00B42F47 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				790A0B482AE286D500B42F47 /* TradeViewModel.swift */,
+				790A0B752AE3E7A800B42F47 /* TopViewModel.swift */,
+				790A0B532AE3D12E00B42F47 /* CurrencyPairViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		790A0B4B2AE28A9800B42F47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				790A0B462AE1524400B42F47 /* ButtonsView.swift */,
+				790A0B2F2ADFD37600B42F47 /* ContentView.swift */,
+				790A0B442AE0126600B42F47 /* TopView.swift */,
+				790A0B7B2AE538CC00B42F47 /* NotificationView.swift */,
+				790A0B7D2AE53CD300B42F47 /* PrpgressView.swift */,
+				790A0B4F2AE2ABB700B42F47 /* CurrencyPairView.swift */,
+				790A0B422AE0122900B42F47 /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		790A0B592AE3D1F900B42F47 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				790A0B572AE3D1D100B42F47 /* USDCAD.html */,
+				790A0B552AE3D1A000B42F47 /* EURCAD.html */,
+				790A0B512AE3CDCE00B42F47 /* GBPUSD.html */,
+				790A0B3D2ADFEB4A00B42F47 /* EURUSD.html */,
+				790A0B5A2AE3D22D00B42F47 /* AUDUSD.html */,
+				790A0B5C2AE3D25700B42F47 /* NZDUSD.html */,
+				790A0B602AE3D2AE00B42F47 /* EURAUD.html */,
+				790A0B642AE3D31400B42F47 /* CHFJPY.html */,
+				790A0B662AE3D37000B42F47 /* CADJPY.html */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		790A0B722AE3E70400B42F47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				790A0B732AE3E71800B42F47 /* UserModel.swift */,
+			);
+			name = Model;
+			path = ViewModel/Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +236,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				790A0B352ADFD37800B42F47 /* Preview Assets.xcassets in Resources */,
+				790A0B672AE3D37000B42F47 /* CADJPY.html in Resources */,
+				790A0B5B2AE3D22D00B42F47 /* AUDUSD.html in Resources */,
+				790A0B522AE3CDCF00B42F47 /* GBPUSD.html in Resources */,
+				790A0B562AE3D1A000B42F47 /* EURCAD.html in Resources */,
+				790A0B612AE3D2AE00B42F47 /* EURAUD.html in Resources */,
+				790A0B652AE3D31400B42F47 /* CHFJPY.html in Resources */,
 				790A0B322ADFD37800B42F47 /* Assets.xcassets in Resources */,
+				790A0B5D2AE3D25700B42F47 /* NZDUSD.html in Resources */,
+				790A0B3E2ADFEB4A00B42F47 /* EURUSD.html in Resources */,
+				790A0B582AE3D1D100B42F47 /* USDCAD.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +257,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				790A0B302ADFD37600B42F47 /* ContentView.swift in Sources */,
+				790A0B7A2AE5310D00B42F47 /* MyTimer.swift in Sources */,
+				790A0B412AE005A600B42F47 /* Color.swift in Sources */,
+				790A0B4E2AE28E3800B42F47 /* FocusEnum.swift in Sources */,
+				790A0B502AE2ABB700B42F47 /* CurrencyPairView.swift in Sources */,
+				790A0B3C2ADFD3AF00B42F47 /* SwiftUIWebView.swift in Sources */,
+				790A0B492AE286D500B42F47 /* TradeViewModel.swift in Sources */,
+				790A0B542AE3D12E00B42F47 /* CurrencyPairViewModel.swift in Sources */,
+				790A0B432AE0122900B42F47 /* MainView.swift in Sources */,
+				790A0B472AE1524400B42F47 /* ButtonsView.swift in Sources */,
+				790A0B452AE0126600B42F47 /* TopView.swift in Sources */,
+				790A0B762AE3E7A800B42F47 /* TopViewModel.swift in Sources */,
+				790A0B742AE3E71800B42F47 /* UserModel.swift in Sources */,
 				790A0B2E2ADFD37600B42F47 /* TradeApp.swift in Sources */,
+				790A0B7E2AE53CD300B42F47 /* PrpgressView.swift in Sources */,
+				790A0B7C2AE538CC00B42F47 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
