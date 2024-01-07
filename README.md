@@ -8,3 +8,5 @@ Trade also provides various tools for market analysis, such as charts and indica
 In addition, the Trade app provides market news and analytical reviews that will help you stay up-to-date on the latest events and trends in the market.
 
 Overall, the Trade app is a useful tool for those interested in financial markets and want to track changes in currency exchange rates.
+
+![Image alt](https://github.com/baranov89/GymNote/blob/main/Gym1.png)
